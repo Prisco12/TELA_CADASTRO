@@ -6,7 +6,7 @@
 
 body{
     background-color: #27262C;
-    
+    overflow: hidden;
     
 }
 html, body {
@@ -50,7 +50,26 @@ html, body {
     width: 336.47px;
     height: 336.47px;
     left: 90%;
-    top: 80%;
+    top: 79%;
+
+    transform: rotate(-5deg);
+}
+#triangulo2{
+    position: absolute;
+    width: 336.47px;
+    height: 336.47px;
+    left: 84%;
+    top: 69%;
+
+    transform: rotate(-5deg);
+}
+
+#triangulo3{
+    position: absolute;
+    width: 336.47px;
+    height: 336.47px;
+    left: 77.5%;
+    top: 58.5%;
 
     transform: rotate(-5deg);
 }
